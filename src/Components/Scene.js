@@ -25,8 +25,8 @@ export const Scene = () => {
 
   return (
     <>
-      {/* <OrbitControls ref={ref} /> */}
-      {/* <Stats /> */}
+      <OrbitControls ref={ref} />
+      <Stats />
       {/* <gridHelper args={[50, 50]} /> */}
       <ambientLight intensity={1.4} color="#babccf" />
       <spotLight

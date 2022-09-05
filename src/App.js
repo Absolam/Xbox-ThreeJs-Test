@@ -1,11 +1,12 @@
 import { Canvas } from "@react-three/fiber";
 import React, { useRef, useState } from "react";
-import { Float, Loader } from "@react-three/drei";
+import { Center, Float, Loader } from "@react-three/drei";
 import { Scene } from "./Components/Scene";
 import { XboxAndController } from "./Components/XboxAndController";
 import { Frigate } from "./Components/Frigate";
 import { CustomCameraShake } from "./Components/CustomCameraShake";
 import { Custom3DText } from "./Components/Custom3DText";
+import { CovenantCarrier } from "./Components/CovenantCarrier";
 
 function App() {
   const ref = useRef();
@@ -32,43 +33,43 @@ function App() {
           <XboxAndController />
           <group>
             <Float
-              rotationIntensity={0.2}
-              floatIntensity={1}
-              floatingRange={[-0.08, 0.05]}
+              rotationIntensity={0.01}
+              floatIntensity={1.1}
+              floatingRange={[-0.02, 0.02]}
             >
               <Frigate
                 position={[-5, 0, -1.3]}
                 rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
                 direction="x"
-                scale={0.001}
+                scale={0.0005}
                 speed={0.003}
+                stoppingPosition={-3.5}
               />
             </Float>
           </group>
           <group>
             <Float
-              rotationIntensity={0.2}
-              floatIntensity={1}
-              floatingRange={[-0.05, 0.05]}
+              rotationIntensity={0.01}
+              floatIntensity={1.7}
+              floatingRange={[-0.02, 0.02]}
             >
               <Frigate
                 position={[-5.4, -0.3, -1.2]}
                 rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
                 direction="x"
-                scale={0.0008}
+                scale={0.0007}
                 speed={0.003}
+                stoppingPosition={-3.7}
               />
             </Float>
           </group>
-          <group>
-            <Frigate
-              position={[-1.5, -1.4, -0]}
-              rotation={[-Math.PI / 2, 0, -Math.PI * 2]}
-              direction="z"
-              scale={0.001}
-              speed={-0.006}
-            />
-          </group>
+          <Float
+            rotationIntensity={0.01}
+            floatIntensity={1.7}
+            floatingRange={[-0.02, 0.04]}
+          >
+            <CovenantCarrier />
+          </Float>
           {/* <CustomText color="#fff" position={[-3, -1.2, 0]} fontSize={0.5}>
             Xbox Series X
           </CustomText> */}

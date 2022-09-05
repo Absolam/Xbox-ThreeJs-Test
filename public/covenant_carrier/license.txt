@@ -1,0 +1,11 @@
+Model Information:
+* title:	CAS Class Assault Carrier
+* source:	https://sketchfab.com/3d-models/cas-class-assault-carrier-76c3a276eee64ae2bd83a8ead67880db
+* author:	Admiral Tributon (https://sketchfab.com/doctor10)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CAS Class Assault Carrier" (https://sketchfab.com/3d-models/cas-class-assault-carrier-76c3a276eee64ae2bd83a8ead67880db) by Admiral Tributon (https://sketchfab.com/doctor10) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

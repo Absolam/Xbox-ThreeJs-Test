@@ -1,0 +1,593 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3509,
+      "max": [
+        1263.060791015625,
+        715.4859619140625,
+        113.91726684570313
+      ],
+      "min": [
+        -1048.578125,
+        -730.7711791992188,
+        -156.09292602539063
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 42108,
+      "componentType": 5126,
+      "count": 3509,
+      "max": [
+        0.9993417859077454,
+        0.9942924380302429,
+        0.999998927116394
+      ],
+      "min": [
+        -0.9943099617958069,
+        -0.994317889213562,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3509,
+      "max": [
+        1.0,
+        1.0,
+        0.999862015247345,
+        1.0
+      ],
+      "min": [
+        -0.9994571208953857,
+        -1.0,
+        -0.9999998807907104,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3509,
+      "max": [
+        0.99873286485672,
+        0.9998979568481445
+      ],
+      "min": [
+        1.4313318388303742e-05,
+        1.4333552826428786e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 10521,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 84216,
+      "componentType": 5126,
+      "count": 1471,
+      "max": [
+        861.6009521484375,
+        251.61280822753906,
+        129.13186645507813
+      ],
+      "min": [
+        -2339.17578125,
+        -266.6708068847656,
+        -95.96688842773438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 101868,
+      "componentType": 5126,
+      "count": 1471,
+      "max": [
+        1.0,
+        0.9942924380302429,
+        0.9659255743026733
+      ],
+      "min": [
+        -1.0,
+        -0.994317889213562,
+        -0.9660531878471375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 56144,
+      "componentType": 5126,
+      "count": 1471,
+      "max": [
+        0.9977179765701294,
+        0.999988317489624,
+        0.9999998807907104,
+        1.0
+      ],
+      "min": [
+        -0.9977124333381653,
+        -0.9999979138374329,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28072,
+      "componentType": 5126,
+      "count": 1471,
+      "max": [
+        0.9999856948852539,
+        0.9999856948852539
+      ],
+      "min": [
+        1.4313318388303742e-05,
+        1.4333552826428786e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 42084,
+      "componentType": 5125,
+      "count": 2520,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 119520,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        345.133544921875,
+        419.70220947265625,
+        277.3045959472656
+      ],
+      "min": [
+        -2388.146484375,
+        -434.94219970703125,
+        -232.29502868652344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 133560,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        0.9999996423721313,
+        0.9906560182571411,
+        0.9999943971633911
+      ],
+      "min": [
+        -0.9533641338348389,
+        -0.9906448125839233,
+        -0.9999939203262329
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 79680,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        0.9570478200912476,
+        0.999974250793457,
+        0.9985947608947754,
+        1.0
+      ],
+      "min": [
+        -0.9793368577957153,
+        -1.0,
+        -0.9983806610107422,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 39840,
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        0.9957177639007568,
+        0.9977462291717529
+      ],
+      "min": [
+        1.4313318388303742e-05,
+        1.4333552826428786e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 52164,
+      "componentType": 5125,
+      "count": 4428,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Admiral Tributon (https://sketchfab.com/doctor10)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cas-class-assault-carrier-76c3a276eee64ae2bd83a8ead67880db",
+      "title": "CAS Class Assault Carrier"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 69876,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 49200,
+      "byteOffset": 69876,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 147600,
+      "byteOffset": 119076,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 98400,
+      "byteOffset": 266676,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 365076,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/stern_main_baseColor.png"
+    },
+    {
+      "uri": "textures/stern_main_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/stern_main_emissive.png"
+    },
+    {
+      "uri": "textures/stern_main_normal.png"
+    },
+    {
+      "uri": "textures/building_lights_main_baseColor.png"
+    },
+    {
+      "uri": "textures/building_lights_main_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/building_lights_main_emissive.png"
+    },
+    {
+      "uri": "textures/building_lights_main_normal.png"
+    },
+    {
+      "uri": "textures/bow_main_baseColor.png"
+    },
+    {
+      "uri": "textures/bow_main_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/bow_main_emissive.png"
+    },
+    {
+      "uri": "textures/bow_main_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "stern_main",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 6
+      },
+      "name": "building_lights_main",
+      "normalTexture": {
+        "index": 7
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 10
+      },
+      "name": "bow_main",
+      "normalTexture": {
+        "index": 11
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 8
+        },
+        "metallicRoughnessTexture": {
+          "index": 9
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "cas_carrier_stern_main_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "cas_carrier_building_lights_main_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "cas_carrier_bow_main_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        2.3572999907628413e-06,
+        -5.6978001339302855e-06,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "CAS Assualtcarrier(V1)Carrier.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "matrix": [
+        0.5775869488716125,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -9.410085811801811e-08,
+        -0.5775869488716049,
+        0.0,
+        0.0,
+        0.5775869488716049,
+        -9.410085811801811e-08,
+        0.0,
+        260.635009765625,
+        156.96815490722656,
+        0.0,
+        1.0
+      ],
+      "name": "cas_carrier"
+    },
+    {
+      "mesh": 0,
+      "name": "cas_carrier_stern_main_0"
+    },
+    {
+      "mesh": 1,
+      "name": "cas_carrier_building_lights_main_0"
+    },
+    {
+      "mesh": 2,
+      "name": "cas_carrier_bow_main_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    },
+    {
+      "sampler": 0,
+      "source": 9
+    },
+    {
+      "sampler": 0,
+      "source": 10
+    },
+    {
+      "sampler": 0,
+      "source": 11
+    }
+  ]
+}

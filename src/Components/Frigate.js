@@ -14,7 +14,10 @@ export function Frigate(props) {
   const { nodes, materials } = useGLTF("/halo_frigate/scene.gltf");
   const frigate_ref = useRef();
   useFrame((delta) => {
-    if (props.direction === "x") {
+    if (
+      props.direction === "x" &&
+      frigate_ref.current.position.x <= props.stoppingPosition
+    ) {
       frigate_ref.current.position.x += props.speed;
     } else if (props.direction === "z") {
       frigate_ref.current.position.z += props.speed;
