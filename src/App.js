@@ -53,8 +53,8 @@ function App() {
               <Frigate
                 position={[0.2, 0, -2]}
                 rotation={[-Math.PI / 2, 0, Math.PI / 2]}
-                scale={0.0006}
-                speed={-0.0008}
+                scale={0.0008}
+                speed={-0.001}
               />
             </Float>
           </group>
