@@ -14,7 +14,11 @@ export function Frigate(props) {
   const { nodes, materials } = useGLTF("/halo_frigate/scene.gltf");
   const frigate_ref = useRef();
   useFrame((delta) => {
-    frigate_ref.current.position.x += props.speed;
+    if (props.direction === "x") {
+      frigate_ref.current.position.x += props.speed;
+    } else if (props.direction === "z") {
+      frigate_ref.current.position.z += props.speed;
+    }
   });
   return (
     <group {...props} dispose={null} ref={frigate_ref}>
@@ -33,21 +37,25 @@ export function Frigate(props) {
             geometry={nodes.UNSC_Panama_Frigate_2.geometry}
             material={materials.Panel_Dark}
             receiveShadow
+            castShadow
           />
           <mesh
             geometry={nodes.UNSC_Panama_Frigate_3.geometry}
             material={materials.Panel_Light}
             receiveShadow
+            castShadow
           />
           <mesh
             geometry={nodes.UNSC_Panama_Frigate_4.geometry}
             material={materials.Greeble_Mid}
             receiveShadow
+            castShadow
           />
           <mesh
             geometry={nodes.UNSC_Panama_Frigate_4_1.geometry}
             material={materials.Greeble_Mid}
             receiveShadow
+            castShadow
           />
           <mesh
             geometry={nodes.UNSC_Panama_Frigate_5.geometry}

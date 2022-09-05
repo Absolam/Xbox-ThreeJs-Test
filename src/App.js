@@ -33,12 +33,13 @@ function App() {
           <group>
             <Float
               rotationIntensity={0.2}
-              floatIntensity={2}
+              floatIntensity={1}
               floatingRange={[-0.08, 0.05]}
             >
               <Frigate
                 position={[-5, 0, -1.3]}
                 rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
+                direction="x"
                 scale={0.001}
                 speed={0.003}
               />
@@ -47,16 +48,26 @@ function App() {
           <group>
             <Float
               rotationIntensity={0.2}
-              floatIntensity={2}
+              floatIntensity={1}
               floatingRange={[-0.05, 0.05]}
             >
               <Frigate
-                position={[0.2, 0, -2]}
-                rotation={[-Math.PI / 2, 0, Math.PI / 2]}
+                position={[-5.4, -0.3, -1.2]}
+                rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
+                direction="x"
                 scale={0.0008}
-                speed={-0.001}
+                speed={0.003}
               />
             </Float>
+          </group>
+          <group>
+            <Frigate
+              position={[-1.5, -1.4, -0]}
+              rotation={[-Math.PI / 2, 0, -Math.PI * 2]}
+              direction="z"
+              scale={0.001}
+              speed={-0.006}
+            />
           </group>
           {/* <CustomText color="#fff" position={[-3, -1.2, 0]} fontSize={0.5}>
             Xbox Series X
