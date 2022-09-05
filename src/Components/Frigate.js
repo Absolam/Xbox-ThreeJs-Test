@@ -13,7 +13,7 @@ import { useFrame } from "@react-three/fiber";
 export function Frigate(props) {
   const { nodes, materials } = useGLTF("/halo_frigate/scene.gltf");
   const frigate_ref = useRef();
-  useFrame((state, delta) => {
+  useFrame((delta) => {
     frigate_ref.current.position.x += props.speed;
   });
   return (

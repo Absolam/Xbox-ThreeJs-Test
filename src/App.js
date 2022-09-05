@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import React, { useRef, useState } from "react";
-import { Loader } from "@react-three/drei";
+import { Float, Loader } from "@react-three/drei";
 import { Scene } from "./Components/Scene";
 import { XboxAndController } from "./Components/XboxAndController";
 import { CustomText } from "./Components/CustomText";
@@ -34,20 +34,32 @@ function App() {
 
           <XboxAndController />
           <group>
-            <Frigate
-              position={[-6, 0, -1.3]}
-              rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
-              scale={0.001}
-              speed={0.003}
-            />
+            <Float
+              rotationIntensity={0.2}
+              floatIntensity={2}
+              floatingRange={[-0.08, 0.05]}
+            >
+              <Frigate
+                position={[-5, 0, -1.3]}
+                rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
+                scale={0.001}
+                speed={0.003}
+              />
+            </Float>
           </group>
           <group>
-            <Frigate
-              position={[0.2, 0, -2]}
-              rotation={[-Math.PI / 2, 0, Math.PI / 2]}
-              scale={0.0006}
-              speed={-0.0008}
-            />
+            <Float
+              rotationIntensity={0.2}
+              floatIntensity={2}
+              floatingRange={[-0.05, 0.05]}
+            >
+              <Frigate
+                position={[0.2, 0, -2]}
+                rotation={[-Math.PI / 2, 0, Math.PI / 2]}
+                scale={0.0006}
+                speed={-0.0008}
+              />
+            </Float>
           </group>
           {/* <CustomText color="#fff" position={[-3, -1.2, 0]} fontSize={0.5}>
             Xbox Series X
