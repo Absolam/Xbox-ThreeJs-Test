@@ -3,14 +3,12 @@ import React, { useRef, useState } from "react";
 import { Float, Loader } from "@react-three/drei";
 import { Scene } from "./Components/Scene";
 import { XboxAndController } from "./Components/XboxAndController";
-import { CustomText } from "./Components/CustomText";
 import { Frigate } from "./Components/Frigate";
 import { CustomCameraShake } from "./Components/CustomCameraShake";
 import { Custom3DText } from "./Components/Custom3DText";
 
 function App() {
   const ref = useRef();
-  const [shake, setShake] = useState(false);
 
   return (
     <div id="canvas-container">
@@ -20,7 +18,6 @@ function App() {
         camera={{ zoom: 200, far: 18, left: 1, right: 1, top: 1, bottom: 1 }}
       >
         <color args={["#191a1f"]} attach="background" />
-        {shake ? <CustomCameraShake /> : ""}
         <group position={[1, 0, 4]} rotation={[0.33, 0, 0]}>
           <Scene />
           <Custom3DText
