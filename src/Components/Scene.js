@@ -26,7 +26,7 @@ export const Scene = () => {
   return (
     <>
       {/* <OrbitControls ref={ref} /> */}
-      <Stats />
+      {/* <Stats /> */}
       {/* <gridHelper args={[50, 50]} /> */}
       <ambientLight intensity={1.4} color="#babccf" />
       <spotLight
@@ -42,11 +42,11 @@ export const Scene = () => {
       />
       <mesh
         rotation={[Math.PI / -2, 0, 0]}
-        position={[0, -1.5, 0]}
+        position={[0, -1.5, -5]}
         scale={30}
         receiveShadow
       >
-        <planeGeometry />
+        <planeGeometry args={[1, 10]} />
         <meshStandardMaterial roughness={0.8} color="#191a1f" />
       </mesh>
     </>
